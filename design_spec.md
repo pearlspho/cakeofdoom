@@ -46,10 +46,10 @@ Configurable via env or config files such as yamls:
  **Player Styles** 
  
  These will be defined in code and should include at least:
- - logical: plays maximising chances of winning
- - casual: some randomness in decisions, but behaves logically for critical decisions
- - saboteur: enjoys playing disasters and taking from others, plays to revenge
- - cake hog: focuses on cakes and 'saving up', instead of interactions
+ - _logical_: plays maximising chances of winning
+ - _casual_: some randomness in decisions, but behaves logically for critical decisions
+ - _saboteur_: enjoys playing disasters and taking from others, plays to revenge
+ - _cake hog_: focuses on cakes and 'saving up', instead of interactions
  
  **Output** 
 
@@ -64,7 +64,7 @@ Key summaries will be created automatically:
  - Distribution of total cake cards required
  - Distribution of total action/disaster cards required
 
-The outputs should include or allow easy analysis of/by:
+The outputs should be structured and allow analysis of/by:
  - game duration (number of rounds)
  - player position
  - player style
@@ -77,7 +77,7 @@ The outputs should include or allow easy analysis of/by:
  - frequency of game-winning attempts
  - 'safety margin' of bribe attempts
  - stealing regions vs targeting neutral regions
- - whether the Cake Monster was played (or in play)
+ - whether the Cake Monster was played (or drawn)
 
 ## Technical Requirements
 
